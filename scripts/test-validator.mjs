@@ -275,7 +275,7 @@ import { spawnSync } from 'node:child_process';
 import fs from 'node:fs';
 
 await test('CLI deve retornar Exit Code 4 quando arquivo HTML alvo não existe', () => {
-  const result = spawnSync('node', ['scripts/verify-content.mjs'], {
+  const result = spawnSync(process.execPath, ['scripts/verify-content.mjs'], {
     env: { ...process.env, TARGET_HTML: 'arquivo_inexistente_999.html' },
     encoding: 'utf8'
   });
@@ -289,7 +289,7 @@ await test('CLI deve retornar Exit Code 2 em caso de erro estrutural de schema',
   fs.writeFileSync(tmpFile, invalidHtml, 'utf8');
 
   try {
-    const result = spawnSync('node', ['scripts/verify-content.mjs'], {
+    const result = spawnSync(process.execPath, ['scripts/verify-content.mjs'], {
       env: { ...process.env, TARGET_HTML: tmpFile },
       encoding: 'utf8'
     });
@@ -306,7 +306,7 @@ await test('CLI deve retornar Exit Code 3 em caso de violação de segurança (S
   fs.writeFileSync(tmpFile, ssrfHtml, 'utf8');
 
   try {
-    const result = spawnSync('node', ['scripts/verify-content.mjs'], {
+    const result = spawnSync(process.execPath, ['scripts/verify-content.mjs'], {
       env: { ...process.env, TARGET_HTML: tmpFile },
       encoding: 'utf8'
     });
@@ -317,7 +317,7 @@ await test('CLI deve retornar Exit Code 3 em caso de violação de segurança (S
 });
 
 await test('CLI deve retornar Exit Code 0 em execução bem-sucedida (public/index.html)', () => {
-  const result = spawnSync('node', ['scripts/verify-content.mjs'], {
+  const result = spawnSync(process.execPath, ['scripts/verify-content.mjs'], {
     env: { ...process.env, TARGET_HTML: 'public/index.html', MOCK_LLM: 'true' },
     encoding: 'utf8'
   });

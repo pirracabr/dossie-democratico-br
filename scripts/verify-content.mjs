@@ -239,10 +239,8 @@ function generateGitHubStepSummary(report) {
   return md;
 }
 
-// Executa apenas se chamado diretamente
-if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, '/')}`) {
-  main().catch(err => {
-    console.error('💥 Erro fatal não tratado:', err);
-    process.exit(EXIT_CODES.CONFIGURATION_ERROR);
-  });
-}
+// Execução do CLI
+main().catch(err => {
+  console.error('💥 Erro fatal não tratado:', err);
+  process.exit(EXIT_CODES.CONFIGURATION_ERROR);
+});
