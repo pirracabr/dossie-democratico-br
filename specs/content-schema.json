@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DOMContentExtractionSchema",
+  "description": "Especificação dos cartões factuais extraídos do DOM do site estático (index.html).",
+  "type": "object",
+  "required": ["version", "target_selectors", "extracted_card_schema"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "const": "1.0.0"
+    },
+    "target_selectors": {
+      "type": "array",
+      "description": "Lista de seletores CSS primários que delimitam um cartão de alegação factual no HTML.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "default": [
+        ".warn-card",
+        ".fact-card",
+        ".card[data-claim]",
+        ".job-item[data-claim]"
+      ]
+    },
+    "field_selectors": {
+      "type": "object",
+      "description": "Seletores CSS internos relativos a cada cartão para localização de campos específicos.",
+      "properties": {
+        "claim_text": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": [".claim-text", ".card-text", ".description", "p", ".fact-content"]
+        },
+        "sources": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": ["a.source-link", "a[href^='http']", "[data-source-url]"]
+        },
+        "title": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": [".card-title", ".warn-title", "h2", "h3", "h4", "strong"]
+        }
+      }
+    },
+    "extracted_card_schema": {
+      "type": "object",
+      "description": "JSON Schema aplicado a cada item extraído do DOM pelo parser antes do envio à esteira.",
+      "required": ["id", "matched_selector", "claim_text", "source_urls"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-zA-Z0-9_-]+$",
+          "description": "Identificador único do cartão no documento HTML."
+        },
+        "title": {
+          "type": "string",
+          "description": "Título opcional descritivo do cartão."
+        },
+        "matched_selector": {
+          "type": "string",
+          "description": "O seletor CSS que identificou este elemento no DOM."
+        },
+        "claim_text": {
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 2000,
+          "description": "Texto da alegação ou afirmação factual a ser validada contra fontes externas."
+        },
+        "source_urls": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https?://"
+          },
+          "description": "Lista de URLs externas vinculadas a esta afirmação."
+        }
+      }
+    }
+  }
+}

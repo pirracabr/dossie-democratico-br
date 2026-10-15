@@ -1,0 +1,24 @@
+{
+  "name": "spec-driven-fact-check-pipeline",
+  "version": "1.0.0",
+  "description": "Pipeline agêntico de fact-checking e validação de fontes (Spec-Driven) para sites estáticos",
+  "type": "module",
+  "scripts": {
+    "verify": "node scripts/verify-content.mjs",
+    "test": "node scripts/test-validator.mjs",
+    "lint": "node --check scripts/verify-content.mjs scripts/test-validator.mjs"
+  },
+  "keywords": [
+    "fact-checking",
+    "spec-driven",
+    "github-actions",
+    "security",
+    "ssrf-prevention",
+    "prompt-injection-defense"
+  ],
+  "author": "Pipeline SecOps & AI Team",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}

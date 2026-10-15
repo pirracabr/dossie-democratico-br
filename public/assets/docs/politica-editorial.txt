@@ -1,0 +1,7 @@
+POLÍTICA EDITORIAL E DIRETRIZES DE VALIDAÇÃO FACTUAL
+=====================================================
+
+1. Todo cartão de alegação publicado neste portal passa por verificação em tempo de compilação (CI/CD).
+2. Não são aceitas afirmações estatísticas ou de conformidade sem links para fontes primárias ou secundárias de alta reputação.
+3. Fontes que violem políticas de segurança de rede (SSRF, redes locais, domínios restritos) são automaticamente rejeitadas.
+4. O código deste verificador e as especificações formais estão sob a pasta /specs e /scripts do repositório.

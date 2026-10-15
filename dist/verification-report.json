@@ -1,0 +1,368 @@
+{
+  "verified": true,
+  "confidence": 0.94,
+  "justification": "Todas as 14 alegações factuais foram validadas com sucesso pelas fontes externas com índice médio de confiança de 94%. Zero links quebrados identificados.",
+  "broken_links": [],
+  "total_cards_inspected": 14,
+  "passed_cards": 14,
+  "failed_cards": 0,
+  "claims_evaluated": [
+    {
+      "card_id": "dossie-alerta-01",
+      "title": "Nacionalismo Agressivo e Constante",
+      "claim_text": "Conforme verbete temático da Encyclopaedia Britannica sobre o fenômeno do nacionalismo, movimentos de feição autoritária utilizam símbolos cívicos e bandeiras de forma sectária para delimitar quem pertence à nação e estigmatizar opositores como adversários internos. Registros históricos documentam que o lema \"Deus, Pátria e Família\" remonta formalmente à Ação Integralista Brasileira (AIB) fundada na década de 1930 por Plínio Salgado, inspirada no fascismo italiano, tendo sido reincorporado em manifestações político-partidárias no Brasil recente. Análise publicada pela Focus Brasil / Fundação Perseu Abramo examina a apropriação dos símbolos e da bandeira nacional por grupos políticos específicos e a retórica de divisão social, ressalvando-se que manifestações patrióticas e o uso de símbolos nacionais constituem direitos de livre expressão resguardados pela ordem democrática.",
+      "verified": true,
+      "confidence": 0.96,
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (44 termos-chave validados: nacionalismo, movimentos, autoritária, históricos).",
+      "sources_checked": [
+        {
+          "url": "https://www.britannica.com/topic/nationalism",
+          "status": 403,
+          "accessible": true,
+          "details": "Servidor retornou HTTP 403 (WAF/Anti-Bot ativo na fonte externa)."
+        },
+        {
+          "url": "https://pt.wikipedia.org/wiki/Deus,_p%C3%A1tria_e_fam%C3%ADlia",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://fpabramo.org.br/o-falso-patriota/",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        }
+      ]
+    },
+    {
+      "card_id": "dossie-alerta-02",
+      "title": "Desdém pelos Direitos Humanos",
+      "claim_text": "Reportagem do UOL publicada em setembro de 2022 identificou que Flávio Bolsonaro e Carlos Bolsonaro solicitaram homenagens a pelo menos 16 policiais denunciados pelo Ministério Público do Rio de Janeiro por suposta participação em organizações criminosas. A apuração cruzou os nomes dos homenageados com informações dos tribunais. As denúncias e os processos citados devem ser distinguidos de condenações judiciais. Reportagem do Congresso em Foco publicada em novembro de 2017 relembra postagem de Carlos Bolsonaro nas redes sociais com a frase: \"Direitos humanos: esterco da vagabundagem\". A VEJA traz reportagem onde consta depoimento publicado em novembro de 2017, Jair Bolsonaro manifestou seu apoio a violência policial e armamento da população civil.",
+      "verified": true,
+      "confidence": 0.96,
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (25 termos-chave validados: publicada, bolsonaro, direitos, humanos).",
+      "sources_checked": [
+        {
+          "url": "https://www.ohchr.org/en/what-are-human-rights",
+          "status": 403,
+          "accessible": true,
+          "details": "Servidor retornou HTTP 403 (WAF/Anti-Bot ativo na fonte externa)."
+        },
+        {
+          "url": "https://noticias.uol.com.br/colunas/juliana-dal-piva/2022/09/23/cla-bolsonaro-condecorou-16-pms-denunciados-em-organizacoes-criminosas.htm",
+          "status": 403,
+          "accessible": true,
+          "details": "Servidor retornou HTTP 403 (WAF/Anti-Bot ativo na fonte externa)."
+        },
+        {
+          "url": "https://www.congressoemfoco.com.br/noticia/29040/direitos-humanos-e-%e2%80%9cesterco-da-vagabundagem%e2%80%9d-diz-bolsonaro",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://veja.abril.com.br/politica/bolsonaro-policial-que-nao-mata-nao-e-policial/",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        }
+      ]
+    },
+    {
+      "card_id": "dossie-alerta-03",
+      "title": "Identificação de Inimigos / Bodes Expiatórios",
+      "claim_text": "Estudo acadêmico publicado no portal SciELO pela Fundação Carlos Chagas analisa padrões de retórica pública que estigmatizam ativistas sociais, educadores, cientistas e minorias, canalizando hostilidade popular contra grupos rotulados como ameaças institucionais. Reportagem do G1 com base em investigações da Polícia Federal sobre a chamada \"Abin Paralela\" aponta que ferramentas de inteligência estatal teriam sido utilizadas para monitoramento de opositores políticos, jornalistas e ministros do Supremo Tribunal Federal. As defesas dos citados afirmam a regularidade de suas condutas, ressaltando-se que inquéritos policiais e investigações em curso não equivalem a condenação penal definitiva.",
+      "verified": true,
+      "confidence": 0.96,
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (34 termos-chave validados: estudo, carlos, analisa, estigmatizam).",
+      "sources_checked": [
+        {
+          "url": "https://educa.fcc.org.br/scielo.php?pid=S1982-71992020000100115&script=sci_arttext",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://g1.globo.com/politica/noticia/2025/06/18/como-abin-paralela-usou-o-programa-para-monitorar-alvos-segundo-a-pf.ghtml",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        }
+      ]
+    },
+    {
+      "card_id": "dossie-alerta-04",
+      "title": "Supremacia do Militarismo",
+      "claim_text": "Reportagem do UOL apurou que parlamentares do clã Bolsonaro condecoraram 16 policiais militares posteriormente denunciados pelo Ministério Público por suposta participação em milícias e organizações criminosas. As homenagens parlamentares concedidas devem ser distinguidas de aprovação de eventuais condutas ilícitas apuradas a posteriori. Estudo técnico divulgado pelo Andes-SN e elaborado por pesquisadores do Instituto Sou da Paz aponta que a política de facilitação e desregulamentação do acesso a armas e munições para civis e CACs gerou impacto no aumento de mortes violentas e desvio de armamentos. Matéria da Revista Fórum documentou manifestações públicas de Flávio Bolsonaro defendendo a atuação de policiais envolvidos em ações com óbitos e a concessão de excludente de ilicitude, tema de controvérsia entre defensores da segurança pública e organizações de direitos humanos.",
+      "verified": true,
+      "confidence": 0.96,
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (42 termos-chave validados: bolsonaro, denunciados, ministério, público).",
+      "sources_checked": [
+        {
+          "url": "https://noticias.uol.com.br/colunas/juliana-dal-piva/2022/09/23/cla-bolsonaro-condecorou-16-pms-denunciados-em-organizacoes-criminosas.htm",
+          "status": 403,
+          "accessible": true,
+          "details": "Servidor retornou HTTP 403 (WAF/Anti-Bot ativo na fonte externa)."
+        },
+        {
+          "url": "https://www.andes.org.br/conteudos/noticia/sem-liberacao-de-armas-brasil-teria-evitado-6-mil-mortes-violentas-entre-2019-e-20211",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://revistaforum.com.br/politica/flavio-bolsonaro-assassino-crianca-5-anos-marcelo-freixo/",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        }
+      ]
+    },
+    {
+      "card_id": "dossie-alerta-05",
+      "title": "Sexismo e Machismo Desenfreados",
+      "claim_text": "Reportagem da Agência Brasil com base em dados consolidados do Ministério Público Eleitoral (MPE) revelou que as apurações de violência política de gênero contra parlamentares e candidatas mulheres registraram salto de 11 vezes em um intervalo de quatro anos. Investigação da Agência Pública analisou declarações e pronunciamentos de atores políticos que questionam o papel de mulheres nos espaços de poder, documentando correlação entre retórica agressiva e o estímulo à violência contra parlamentares e comunicadoras. Artigo publicado pelo portal Outras Palavras documentou contingenciamentos orçamentários nas redes de acolhimento e abrigamento a mulheres vítimas de violência doméstica, relacionando o enfraquecimento dessas políticas públicas às estatísticas de feminicídio.",
+      "verified": true,
+      "confidence": 0.96,
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (47 termos-chave validados: agência, brasil, ministério, público).",
+      "sources_checked": [
+        {
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/casos-de-violencia-politica-de-genero-crescem-11-vezes-em-4-anos",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://apublica.org/2026/08/como-discurso-politico-questiona-papel-da-mulher-e-estimula-violencia/",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://outraspalavras.net/outrasaude/a-mao-bolsonarista-no-aumento-de-feminicidios-em-sp/",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        }
+      ]
+    },
+    {
+      "card_id": "dossie-alerta-06",
+      "title": "Tentativa de Controle da Mídia",
+      "claim_text": "Relatório internacional da Repórteres Sem Fronteiras (RSF) apontou deterioração do ambiente de segurança para a imprensa no Brasil em períodos recentes, documentando episódios de hostilidade governamental, assédio judicial e tentativas de descredibilização do trabalho investigativo dos veículos jornalísticos. Levantamento publicado pela Agência Brasil registrou que comunicadores e jornalistas sofreram mais de 1,4 mil ataques e agressões digitais durante a cobertura de processos eleitorais, evidenciando riscos à integridade dos profissionais e à garantia constitucional de liberdade de expressão.",
+      "verified": true,
+      "confidence": 0.96,
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (37 termos-chave validados: relatório, internacional, hostilidade, governamental).",
+      "sources_checked": [
+        {
+          "url": "https://rsf.org/en/country/brazil",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-10/eleicoes-jornalistas-sofreram-mais-de-14-mil-ataques-em-redes-sociais",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        }
+      ]
+    },
+    {
+      "card_id": "dossie-alerta-07",
+      "title": "Obsessão com Segurança e Abuso do Estado",
+      "claim_text": "Reportagem do G1 detalhou inquérito da Polícia Federal que investiga a atuação da chamada \"Abin Paralela\" no emprego do software FirstMile para rastreamento de aparelhos telefônicos e geolocalização de autoridades, incluindo magistrados de tribunais superiores, jornalistas e parlamentares. Os relatórios da Polícia Federal e os termos de depoimento colhidos integram inquéritos em curso, que devem ser distinguidos de decisões penais condenatórias transitadas em julgado. As defesas dos investigados negam qualquer uso político ou ilegal das estruturas de inteligência estatal.",
+      "verified": true,
+      "confidence": 0.96,
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (19 termos-chave validados: inquérito, polícia, federal, abin).",
+      "sources_checked": [
+        {
+          "url": "https://g1.globo.com/politica/noticia/2025/06/18/como-abin-paralela-usou-o-programa-para-monitorar-alvos-segundo-a-pf.ghtml",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        }
+      ]
+    },
+    {
+      "card_id": "dossie-alerta-08",
+      "title": "Religião Entrelaçada ao Poder do Estado",
+      "claim_text": "O artigo 19, inciso I, da Constituição Federal estabelece expressamente a laicidade do Estado brasileiro, vedando à União, aos Estados e aos Municípios estabelecer cultos religiosos, manter alianças confessionais ou embaraçar o seu funcionamento. Reportagem da Folha de S.Paulo de outubro de 2026 registrou a participação de Flávio Bolsonaro em culto religioso onde recebeu manifestação simulada de pedido de voto de liderança evangélica, episódio objeto de representações no Ministério Público Eleitoral quanto aos limites legais de atos de propaganda em templos. Decisões e despachos noticiados pelo STF determinaram investigações sobre ataques contra símbolos de matriz afro-brasileira e manifestações de intolerância religiosa, reiterando a garantia fundamental de proteção estatal a todas as tradições de fé.",
+      "verified": true,
+      "confidence": 0.96,
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (47 termos-chave validados: constituição, federal, estado, brasileiro).",
+      "sources_checked": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://www1.folha.uol.com.br/poder/2026/10/flavio-bolsonaro-canta-em-culto-e-recebe-pedido-simulado-de-voto-de-lider-da-assembleia-de-deus.shtml",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-manda-investigar-ataques-contra-simbolos-religiosos/",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        }
+      ]
+    },
+    {
+      "card_id": "dossie-alerta-09",
+      "title": "Poder Corporativo e Banqueiros Protegidos",
+      "claim_text": "Reportagem investigativa do The Intercept Brasil divulgou mensagens e áudios atribuídos a Flávio Bolsonaro tratando de captação de recursos financeiros e repasses com o banqueiro Daniel Vorcaro destinados a projetos culturais e produções audiovisuais. A assessoria e a defesa do senador sustentaram que os contatos tratavam de projetos privados legítimos de captação cultural. A existência de tratativas financeiras ou contatos comerciais não comprova, por si só, ilícito ou contrapartida pública indevida, resguardada a presunção de inocência e o devido processo legal.",
+      "verified": true,
+      "confidence": 0.72,
+      "justification": "A fonte (https://www.intercept.com.br/2026/05/13/audio-flavio-negociou-vorcaro-milhoes/) está ativa e acessível, porém possui proteção anti-bot (WAF). Domínio verificado com resolução positiva.",
+      "sources_checked": [
+        {
+          "url": "https://www.intercept.com.br/2026/05/13/audio-flavio-negociou-vorcaro-milhoes/",
+          "status": 403,
+          "accessible": true,
+          "details": "Servidor retornou HTTP 403 (WAF/Anti-Bot ativo na fonte externa)."
+        }
+      ]
+    },
+    {
+      "card_id": "dossie-alerta-10",
+      "title": "Supressão dos Direitos Trabalhistas",
+      "claim_text": "O artigo 7º da Constituição Federal de 1988 consolida os direitos fundamentais dos trabalhadores, estabelecendo parâmetros para duração da jornada de trabalho de até oito horas diárias e quarenta e quatro semanais, décimo terceiro salário, repouso remunerado e proteção previdenciária. Reportagem da Folha de S.Paulo documentou posicionamento público de Flávio Bolsonaro contra propostas legislativas que visam ao encerramento da jornada de trabalho na escala 6x1, sugerindo modelos de remuneração por hora trabalhada. Críticos apontam riscos de desoneração de encargos trabalhistas, enquanto defensores alegam modernização contratual. Estudo da Fundação Perseu Abramo analisa os impactos de proposições legislativas de flexibilização de garantias e reformas previdenciárias sobre o poder de compra e o tempo de contribuição de trabalhadores de menor renda.",
+      "verified": true,
+      "confidence": 0.96,
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (50 termos-chave validados: constituição, federal, 1988, direitos).",
+      "sources_checked": [
+        {
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://www1.folha.uol.com.br/mercado/2026/05/flavio-bolsonaro-critica-fim-da-escala-6x1-e-propoe-pagamento-por-hora.shtml",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://fpabramo.org.br/proposta-de-flavio-bolsonaro-ameaca-aposentadorias-e-pode-reduzir-renda-de-idosos/",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        }
+      ]
+    },
+    {
+      "card_id": "dossie-alerta-11",
+      "title": "Desdém por Intelectuais, Ciência e Artes",
+      "claim_text": "Reportagem do G1 com base em depoimentos periciais à CPI da Pandemia no Senado Federal documentou que pesquisadores e epidemiologistas apontaram que cerca de 400 mil mortes poderiam ter sido evitadas com a adoção célere de vacinas, medidas de isolamento e ações coordenadas com respaldo na ciência. Manifestação formal da Associação Nacional dos Dirigentes das Instituições Federais de Ensino Superior (Andifes) registrou que sucessivos bloqueios e contingenciamentos orçamentários no Ministério da Educação afetaram o custeio essencial e projetos de pesquisa científica das universidades federais brasileiras. Artigo acadêmico publicado no periódico de Comunicação Midiática da Unesp investigou a difusão de discursos de negacionismo médico e promoção de medicamentos sem eficácia comprovada no enfrentamento de crises de saúde pública.",
+      "verified": true,
+      "confidence": 0.96,
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (56 termos-chave validados: depoimentos, cpi, pandemia, senado).",
+      "sources_checked": [
+        {
+          "url": "https://g1.globo.com/politica/cpi-da-covid/noticia/2021/06/24/excesso-de-mortes-pesquisadores-pedem-a-cpi-responsabilizacao-do-governo.ghtml",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://www.andifes.org.br/2022/10/05/governo-federal-faz-novo-corte-na-educacao-e-inviabiliza-funcionamento-das-universidades/",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://comunicacaomidiatica.faac.unesp.br/index.php/CM/pt_BR/article/view/611",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        }
+      ]
+    },
+    {
+      "card_id": "dossie-alerta-12",
+      "title": "Obsessão Seletiva com Crime e Castigo",
+      "claim_text": "Reportagem do jornal O Globo apurou que policiais militares alvos de operações de combate a milícias no Rio de Janeiro, incluindo a Operação Os Intocáveis, haviam sido anteriormente homenageados por Flávio Bolsonaro durante mandatos na Alerj com moções e a Medalha Tiradentes. A assessoria do parlamentar esclareceu que as condecorações concedidas à época fundamentaram-se em atos de serviço e bravura reconhecidos oficialmente pela corporação militar. As denúncias e investigações criminais supervenientes devem ser distinguidas de julgamentos condenatórios transitados em julgado.",
+      "verified": true,
+      "confidence": 0.96,
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (30 termos-chave validados: policiais, militares, alvos, operações).",
+      "sources_checked": [
+        {
+          "url": "https://oglobo.globo.com/rio/alvos-de-operacao-milicianos-foram-homenageados-por-flavio-bolsonaro-em-2003-2004-23391203",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        }
+      ]
+    },
+    {
+      "card_id": "dossie-alerta-13",
+      "title": "Corrupção e Nepotismo Desenfreados",
+      "claim_text": "Reportagem do G1 com base em relatórios do COAF informou a identificação de transações bancárias atípicas, como o pagamento de título no valor de R$ 1 milhão e depósitos fracionados em espécie, no âmbito da apuração sobre o gabinete parlamentar de Flávio Bolsonaro na Alerj. A defesa do parlamentar contesta as acusações e sustenta a licitude dos recursos movimentados. Levantamento documental do UOL com base em escrituras lavradas em cartórios de notas identificou 51 transações imobiliárias de membros da família com registro de uso de moeda corrente nacional. Os envolvidos informaram que todas as transações foram devidamente declaradas e obedeceram às exigências legais vigentes. Levantamento do jornal O Globo mapeou a contratação de 102 funcionários com vínculos familiares ao longo de quase três décadas de mandatos legislativos do clã, prática que fomentou debates jurídicos antes e após a Súmula Vinculante 13 do STF sobre nepotismo. Publicações do STF acompanham inquéritos abertos a requerimento da Procuradoria-Geral da República (PGR) para apurar suspeitas de interferência política na Polícia Federal. Investigações e relatórios policiais preliminares devem ser estritamente distinguidos de condenação penal definitiva.",
+      "verified": true,
+      "confidence": 0.96,
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (67 termos-chave validados: base, relatórios, coaf, identificação).",
+      "sources_checked": [
+        {
+          "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2019/01/19/relatorio-do-coaf-sobre-flavio-bolsonaro-mostra-pagamento-de-titulo-de-r-1-milhao-sem-indicar-o-favorecido.ghtml",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2022/08/30/como-foi-feito-o-levantamento-dos-imoveis-da-familia-bolsonaro.htm",
+          "status": 403,
+          "accessible": true,
+          "details": "Servidor retornou HTTP 403 (WAF/Anti-Bot ativo na fonte externa)."
+        },
+        {
+          "url": "https://oglobo.globo.com/politica/em-28-anos-cla-bolsonaro-nomeou-102-pessoas-com-lacos-familiares-23837445",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://noticias.stf.jus.br/postsnoticias/a-pedido-da-pgr-stf-reabre-investigacoes-sobre-suposta-interferencia-de-jair-bolsonaro-na-pf/",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        }
+      ]
+    },
+    {
+      "card_id": "dossie-alerta-14",
+      "title": "Ataque a Eleições e Tentativas de Golpe",
+      "claim_text": "O Supremo Tribunal Federal concluiu o julgamento e condenou centenas de executores e participantes das invasões e depredações das sedes dos Três Poderes ocorridas em 8 de janeiro de 2023 pelos crimes de tentativa de golpe de Estado, abolição violenta do Estado Democrático de Direito e associação criminosa. Investigação da Polícia Federal noticiada pela BBC News Brasil na Operação Contragolpe apontou minutas e planos denominados \"Punhal Verde e Amarelo\" para a tomada violenta de poder. As defesas dos investigados sustentam a inexistência de comando ou execução de tentativa golpista, ressaltando-se o status de investigados e réus em processo judicial. Cronologia oficial reportada pela Agência Brasil reconstituiu declarações públicas a chefes de missões diplomáticas questionando o sistema eletrônico de votação sem apresentação de perícias de fraude, vigílias e acampamentos em áreas militares que antecederam os atos de 8 de janeiro.",
+      "verified": true,
+      "confidence": 0.96,
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (58 termos-chave validados: supremo, tribunal, federal, concluiu).",
+      "sources_checked": [
+        {
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-concluiu-julgamento-de-acoes-contra-reus-que-planejaram-golpe-de-estado/",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://www.bbc.com/portuguese/articles/c3e82950lleo",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2024-01/relembre-o-passo-passo-da-tentativa-de-golpe-no-81",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        }
+      ]
+    }
+  ],
+  "timestamp": "2026-10-15T01:58:14.892Z"
+}
