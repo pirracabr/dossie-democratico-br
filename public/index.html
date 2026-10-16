@@ -512,6 +512,106 @@
       font-size: .82rem
     }
 
+    /* 4. Materiais Complementares (Vídeos e Documentários) */
+    .media-section {
+      border-top: 1px solid var(--line);
+      padding: 48px 0;
+    }
+
+    .media-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      margin-top: 24px;
+    }
+
+    .media-card {
+      background: linear-gradient(145deg, #131923, #0c1017);
+      border: 1px solid var(--line);
+      border-top: 3px solid #ff3348;
+      border-radius: 12px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    }
+
+    .media-card:hover {
+      transform: translateY(-4px);
+      border-color: #ff3348;
+      box-shadow: 0 12px 30px rgba(255, 51, 72, 0.15);
+    }
+
+    .media-card-badge {
+      display: inline-block;
+      align-self: flex-start;
+      font-size: .72rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color: var(--amber);
+      background: rgba(255, 202, 99, 0.1);
+      border: 1px solid rgba(255, 202, 99, 0.25);
+      padding: 4px 10px;
+      border-radius: 999px;
+      margin-bottom: 12px;
+    }
+
+    .media-card h3 {
+      font-size: 1.22rem;
+      line-height: 1.25;
+      color: #fff;
+      margin: 0 0 10px;
+      letter-spacing: -.02em;
+    }
+
+    .media-desc {
+      color: #b6c0ce;
+      font-size: .92rem;
+      line-height: 1.55;
+      margin: 0 0 18px;
+      flex-grow: 1;
+    }
+
+    .media-footer {
+      margin-top: auto;
+      padding-top: 14px;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .media-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding: 10px 14px;
+      background: rgba(255, 51, 72, 0.1);
+      border: 1px solid rgba(255, 51, 72, 0.3);
+      border-radius: 8px;
+      color: #ff9aa5;
+      font-size: .84rem;
+      font-weight: 700;
+      text-decoration: none;
+      transition: all .2s ease;
+    }
+
+    .media-btn:hover {
+      background: var(--red);
+      color: #fff;
+      border-color: var(--red);
+    }
+
+    .media-btn .ext-icon {
+      font-size: 1rem;
+      transition: transform .2s ease;
+    }
+
+    .media-btn:hover .ext-icon {
+      transform: translate(2px, -2px);
+    }
+
     @media(min-width:700px) {
       .hero {
         padding: 78px 0 58px
@@ -524,11 +624,20 @@
       .alert-card {
         padding: 24px
       }
+
+      .media-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr))
+      }
     }
 
     @media(min-width:1000px) {
       .alert-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px
+      }
+
+      .media-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 20px
       }
     }
@@ -574,6 +683,7 @@
       <a class="highlight-nav" href="#alertas">14 Sinais em Destaque ↓</a>
       <a href="#dossie-evidencias">Dossiê e Fontes no Brasil ↓</a>
       <a href="#como-ler">Metodologia Crítica</a>
+      <a href="#materiais-complementares">Materiais Complementares ↓</a>
     </div>
   </nav>
 
@@ -1497,6 +1607,112 @@
         <h2>Democracia não se protege sozinha.</h2>
         <p>Conhecer os sinais, conferir as evidências, cobrar as instituições e rejeitar a desinformação são formas
           concretas de proteger as liberdades democráticas e o Estado de Direito.</p>
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- 4. MATERIAIS COMPLEMENTARES                -->
+    <!-- ========================================== -->
+    <section id="materiais-complementares" class="media-section">
+      <div class="section-head">
+        <div class="eyebrow">Aprofundamento e Conteúdo Audiovisual</div>
+        <h2>Materiais Complementares</h2>
+        <p>Documentários investigativos e análises históricas em vídeo para aprofundar a reflexão sobre mecanismos
+          autoritários, conexões de influência e o debate cívico no Brasil.</p>
+      </div>
+
+      <div class="media-grid">
+        <!-- Item 1: Revelando - Vorcaro e Lagoinha -->
+        <article class="media-card">
+          <div>
+            <span class="media-card-badge">Série Revelando · Investigação</span>
+            <h3>Grandes Igrejas, Master Negócios</h3>
+            <p class="media-desc">
+              Investigação que expõe as relações e transações entre Daniel Vorcaro (Banco Master) e a liderança da
+              Igreja Batista da Lagoinha.
+            </p>
+          </div>
+          <div class="media-footer">
+            <a href="https://youtu.be/Mj6Il4NWieA" target="_blank" rel="noopener noreferrer" class="media-btn">
+              <span>Assistir no YouTube</span>
+              <span class="ext-icon" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- Item 2: Revelando - Guerra Santa -->
+        <article class="media-card">
+          <div>
+            <span class="media-card-badge">Série Revelando · Investigação</span>
+            <h3>A Guerra Santa</h3>
+            <p class="media-desc">
+              Mostra as conexões entre Flávio Bolsonaro e lideranças religiosas com histórico de intolerância e ataques
+              contra o culto a Nossa Senhora Aparecida.
+            </p>
+          </div>
+          <div class="media-footer">
+            <a href="https://youtu.be/j4Y2XoS_KIY" target="_blank" rel="noopener noreferrer" class="media-btn">
+              <span>Assistir no YouTube</span>
+              <span class="ext-icon" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- Item 3: Revelando - Caso Ana Clara -->
+        <article class="media-card">
+          <div>
+            <span class="media-card-badge">Série Revelando · Investigação</span>
+            <h3>O Julgamento Que Nunca Aconteceu</h3>
+            <p class="media-desc">
+              Apresenta detalhes documentados sobre o caso da menina Ana Clara, morta por ação policial, cujo autor foi
+              defendido por Flávio Bolsonaro.
+            </p>
+          </div>
+          <div class="media-footer">
+            <a href="https://youtu.be/N6f6L80pXns" target="_blank" rel="noopener noreferrer" class="media-btn">
+              <span>Assistir no YouTube</span>
+              <span class="ext-icon" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- Item 4: Canal Nostalgia - Fascismo -->
+        <article class="media-card">
+          <div>
+            <span class="media-card-badge">Canal Nostalgia · História e Política</span>
+            <h3>O Que É Fascismo?</h3>
+            <p class="media-desc">
+              Documentário didático do Canal Nostalgia analisando a gênese histórica, os métodos de propaganda e as
+              características estruturais dos regimes fascistas.
+            </p>
+          </div>
+          <div class="media-footer">
+            <a href="https://www.youtube.com/watch?v=mRRQcTZ1vj0" target="_blank" rel="noopener noreferrer"
+              class="media-btn">
+              <span>Assistir no YouTube</span>
+              <span class="ext-icon" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- Item 5: Canal Nerdologia - Fascismo -->
+        <article class="media-card">
+          <div>
+            <span class="media-card-badge">Canal Nerdologia · Divulgação Científica</span>
+            <h3>Fascismo</h3>
+            <p class="media-desc">
+              Análise com rigor historiográfico apresentada por Filipe Figueiredo no Nerdologia, abordando o surgimento,
+              os sinais e os perigos da ideologia fascista.
+            </p>
+          </div>
+          <div class="media-footer">
+            <a href="https://www.youtube.com/watch?v=kros-1kU1Qc" target="_blank" rel="noopener noreferrer"
+              class="media-btn">
+              <span>Assistir no YouTube</span>
+              <span class="ext-icon" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
       </div>
     </section>
   </main>
