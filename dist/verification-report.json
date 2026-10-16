@@ -13,7 +13,7 @@
       "claim_text": "Conforme verbete temático da Encyclopaedia Britannica sobre o fenômeno do nacionalismo, movimentos de feição autoritária utilizam símbolos cívicos e bandeiras de forma sectária para delimitar quem pertence à nação e estigmatizar opositores como adversários internos. Registros históricos documentam que o lema \"Deus, Pátria e Família\" remonta formalmente à Ação Integralista Brasileira (AIB) fundada na década de 1930 por Plínio Salgado, inspirada no fascismo italiano, tendo sido reincorporado em manifestações político-partidárias no Brasil recente. Análise publicada pela Focus Brasil / Fundação Perseu Abramo examina a apropriação dos símbolos e da bandeira nacional por grupos políticos específicos e a retórica de divisão social, ressalvando-se que manifestações patrióticas e o uso de símbolos nacionais constituem direitos de livre expressão resguardados pela ordem democrática.",
       "verified": true,
       "confidence": 0.96,
-      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (44 termos-chave validados: nacionalismo, movimentos, autoritária, históricos).",
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (30 termos-chave validados: nacionalismo, autoritária, utilizam, símbolos).",
       "sources_checked": [
         {
           "url": "https://www.britannica.com/topic/nationalism",
@@ -22,7 +22,7 @@
           "details": "Servidor retornou HTTP 403 (WAF/Anti-Bot ativo na fonte externa)."
         },
         {
-          "url": "https://pt.wikipedia.org/wiki/Deus,_p%C3%A1tria_e_fam%C3%ADlia",
+          "url": "https://atlas.fgv.br/verbete/5925",
           "status": 200,
           "accessible": true,
           "details": "Acessado com sucesso"
@@ -32,6 +32,18 @@
           "status": 200,
           "accessible": true,
           "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/657096/noticia.html?sequence=1&isAllow",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://www.ihu.unisinos.br/categorias/656252-deus-patria-familia-brasil-que-se-ve-no-espelho-tende-ao-fascismo-artigo-de-vinicius-borges-gomes",
+          "status": 403,
+          "accessible": true,
+          "details": "Servidor retornou HTTP 403 (WAF/Anti-Bot ativo na fonte externa)."
         }
       ]
     },
@@ -97,7 +109,7 @@
       "claim_text": "Reportagem do UOL apurou que parlamentares do clã Bolsonaro condecoraram 16 policiais militares posteriormente denunciados pelo Ministério Público por suposta participação em milícias e organizações criminosas. As homenagens parlamentares concedidas devem ser distinguidas de aprovação de eventuais condutas ilícitas apuradas a posteriori. Estudo técnico divulgado pelo Andes-SN e elaborado por pesquisadores do Instituto Sou da Paz aponta que a política de facilitação e desregulamentação do acesso a armas e munições para civis e CACs gerou impacto no aumento de mortes violentas e desvio de armamentos. Matéria da Revista Fórum documentou manifestações públicas de Flávio Bolsonaro defendendo a atuação de policiais envolvidos em ações com óbitos e a concessão de excludente de ilicitude, tema de controvérsia entre defensores da segurança pública e organizações de direitos humanos.",
       "verified": true,
       "confidence": 0.96,
-      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (42 termos-chave validados: bolsonaro, denunciados, ministério, público).",
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (42 termos-chave validados: bolsonaro, público, participação, criminosas).",
       "sources_checked": [
         {
           "url": "https://noticias.uol.com.br/colunas/juliana-dal-piva/2022/09/23/cla-bolsonaro-condecorou-16-pms-denunciados-em-organizacoes-criminosas.htm",
@@ -125,7 +137,7 @@
       "claim_text": "Reportagem da Agência Brasil com base em dados consolidados do Ministério Público Eleitoral (MPE) revelou que as apurações de violência política de gênero contra parlamentares e candidatas mulheres registraram salto de 11 vezes em um intervalo de quatro anos. Investigação da Agência Pública analisou declarações e pronunciamentos de atores políticos que questionam o papel de mulheres nos espaços de poder, documentando correlação entre retórica agressiva e o estímulo à violência contra parlamentares e comunicadoras. Artigo publicado pelo portal Outras Palavras documentou contingenciamentos orçamentários nas redes de acolhimento e abrigamento a mulheres vítimas de violência doméstica, relacionando o enfraquecimento dessas políticas públicas às estatísticas de feminicídio.",
       "verified": true,
       "confidence": 0.96,
-      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (47 termos-chave validados: agência, brasil, ministério, público).",
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (46 termos-chave validados: agência, brasil, ministério, público).",
       "sources_checked": [
         {
           "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/casos-de-violencia-politica-de-genero-crescem-11-vezes-em-4-anos",
@@ -166,6 +178,12 @@
           "status": 200,
           "accessible": true,
           "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://diplomatique.org.br/bolsonaro-e-o-maior-violador-de-direitos-de-comunicadores-as-no-pais/",
+          "status": 403,
+          "accessible": true,
+          "details": "Servidor retornou HTTP 403 (WAF/Anti-Bot ativo na fonte externa)."
         }
       ]
     },
@@ -191,7 +209,7 @@
       "claim_text": "O artigo 19, inciso I, da Constituição Federal estabelece expressamente a laicidade do Estado brasileiro, vedando à União, aos Estados e aos Municípios estabelecer cultos religiosos, manter alianças confessionais ou embaraçar o seu funcionamento. Reportagem da Folha de S.Paulo de outubro de 2026 registrou a participação de Flávio Bolsonaro em culto religioso onde recebeu manifestação simulada de pedido de voto de liderança evangélica, episódio objeto de representações no Ministério Público Eleitoral quanto aos limites legais de atos de propaganda em templos. Decisões e despachos noticiados pelo STF determinaram investigações sobre ataques contra símbolos de matriz afro-brasileira e manifestações de intolerância religiosa, reiterando a garantia fundamental de proteção estatal a todas as tradições de fé.",
       "verified": true,
       "confidence": 0.96,
-      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (39 termos-chave validados: constituição, federal, estado, brasileiro).",
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (47 termos-chave validados: constituição, federal, estado, brasileiro).",
       "sources_checked": [
         {
           "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
@@ -207,7 +225,7 @@
         },
         {
           "url": "https://noticias.stf.jus.br/postsnoticias/stf-manda-investigar-ataques-contra-simbolos-religiosos/",
-          "status": 202,
+          "status": 200,
           "accessible": true,
           "details": "Acessado com sucesso"
         }
@@ -291,10 +309,16 @@
       "claim_text": "Reportagem do jornal O Globo apurou que policiais militares alvos de operações de combate a milícias no Rio de Janeiro, incluindo a Operação Os Intocáveis, haviam sido anteriormente homenageados por Flávio Bolsonaro durante mandatos na Alerj com moções e a Medalha Tiradentes. A assessoria do parlamentar esclareceu que as condecorações concedidas à época fundamentaram-se em atos de serviço e bravura reconhecidos oficialmente pela corporação militar. As denúncias e investigações criminais supervenientes devem ser distinguidas de julgamentos condenatórios transitados em julgado.",
       "verified": true,
       "confidence": 0.96,
-      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (30 termos-chave validados: policiais, militares, alvos, operações).",
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (39 termos-chave validados: policiais, militares, alvos, operações).",
       "sources_checked": [
         {
           "url": "https://oglobo.globo.com/rio/alvos-de-operacao-milicianos-foram-homenageados-por-flavio-bolsonaro-em-2003-2004-23391203",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://horadopovo.com.br/flavio-bolsonaro-defendeu-pm-acusado-de-assassinar-menina-de-5-anos/",
           "status": 200,
           "accessible": true,
           "details": "Acessado com sucesso"
@@ -307,7 +331,7 @@
       "claim_text": "Reportagem do G1 com base em relatórios do COAF informou a identificação de transações bancárias atípicas, como o pagamento de título no valor de R$ 1 milhão e depósitos fracionados em espécie, no âmbito da apuração sobre o gabinete parlamentar de Flávio Bolsonaro na Alerj. A defesa do parlamentar contesta as acusações e sustenta a licitude dos recursos movimentados. Levantamento documental do UOL com base em escrituras lavradas em cartórios de notas identificou 51 transações imobiliárias de membros da família com registro de uso de moeda corrente nacional. Os envolvidos informaram que todas as transações foram devidamente declaradas e obedeceram às exigências legais vigentes. Levantamento do jornal O Globo mapeou a contratação de 102 funcionários com vínculos familiares ao longo de quase três décadas de mandatos legislativos do clã, prática que fomentou debates jurídicos antes e após a Súmula Vinculante 13 do STF sobre nepotismo. Publicações do STF acompanham inquéritos abertos a requerimento da Procuradoria-Geral da República (PGR) para apurar suspeitas de interferência política na Polícia Federal. Investigações e relatórios policiais preliminares devem ser estritamente distinguidos de condenação penal definitiva.",
       "verified": true,
       "confidence": 0.96,
-      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (56 termos-chave validados: base, relatórios, coaf, identificação).",
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (67 termos-chave validados: base, relatórios, coaf, identificação).",
       "sources_checked": [
         {
           "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2019/01/19/relatorio-do-coaf-sobre-flavio-bolsonaro-mostra-pagamento-de-titulo-de-r-1-milhao-sem-indicar-o-favorecido.ghtml",
@@ -329,7 +353,7 @@
         },
         {
           "url": "https://noticias.stf.jus.br/postsnoticias/a-pedido-da-pgr-stf-reabre-investigacoes-sobre-suposta-interferencia-de-jair-bolsonaro-na-pf/",
-          "status": 202,
+          "status": 200,
           "accessible": true,
           "details": "Acessado com sucesso"
         }
@@ -341,11 +365,11 @@
       "claim_text": "O Supremo Tribunal Federal concluiu o julgamento e condenou centenas de executores e participantes das invasões e depredações das sedes dos Três Poderes ocorridas em 8 de janeiro de 2023 pelos crimes de tentativa de golpe de Estado, abolição violenta do Estado Democrático de Direito e associação criminosa. Investigação da Polícia Federal noticiada pela BBC News Brasil na Operação Contragolpe apontou minutas e planos denominados \"Punhal Verde e Amarelo\" para a tomada violenta de poder. As defesas dos investigados sustentam a inexistência de comando ou execução de tentativa golpista, ressaltando-se o status de investigados e réus em processo judicial. Cronologia oficial reportada pela Agência Brasil reconstituiu declarações públicas a chefes de missões diplomáticas questionando o sistema eletrônico de votação sem apresentação de perícias de fraude, vigílias e acampamentos em áreas militares que antecederam os atos de 8 de janeiro.",
       "verified": true,
       "confidence": 0.96,
-      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (39 termos-chave validados: supremo, tribunal, federal, executores).",
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (57 termos-chave validados: supremo, tribunal, federal, concluiu).",
       "sources_checked": [
         {
           "url": "https://noticias.stf.jus.br/postsnoticias/stf-concluiu-julgamento-de-acoes-contra-reus-que-planejaram-golpe-de-estado/",
-          "status": 202,
+          "status": 200,
           "accessible": true,
           "details": "Acessado com sucesso"
         },
@@ -364,5 +388,5 @@
       ]
     }
   ],
-  "timestamp": "2026-10-15T02:49:14.085Z"
+  "timestamp": "2026-10-16T02:10:25.720Z"
 }
