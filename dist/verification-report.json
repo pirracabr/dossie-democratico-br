@@ -209,7 +209,7 @@
       "claim_text": "O artigo 19, inciso I, da Constituição Federal estabelece expressamente a laicidade do Estado brasileiro, vedando à União, aos Estados e aos Municípios estabelecer cultos religiosos, manter alianças confessionais ou embaraçar o seu funcionamento. Reportagem da Folha de S.Paulo de outubro de 2026 registrou a participação de Flávio Bolsonaro em culto religioso onde recebeu manifestação simulada de pedido de voto de liderança evangélica, episódio objeto de representações no Ministério Público Eleitoral quanto aos limites legais de atos de propaganda em templos. Decisões e despachos noticiados pelo STF determinaram investigações sobre ataques contra símbolos de matriz afro-brasileira e manifestações de intolerância religiosa, reiterando a garantia fundamental de proteção estatal a todas as tradições de fé.",
       "verified": true,
       "confidence": 0.96,
-      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (47 termos-chave validados: constituição, federal, estado, brasileiro).",
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (39 termos-chave validados: constituição, federal, estado, brasileiro).",
       "sources_checked": [
         {
           "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
@@ -225,7 +225,7 @@
         },
         {
           "url": "https://noticias.stf.jus.br/postsnoticias/stf-manda-investigar-ataques-contra-simbolos-religiosos/",
-          "status": 200,
+          "status": 202,
           "accessible": true,
           "details": "Acessado com sucesso"
         }
@@ -331,7 +331,7 @@
       "claim_text": "Reportagem do G1 com base em relatórios do COAF informou a identificação de transações bancárias atípicas, como o pagamento de título no valor de R$ 1 milhão e depósitos fracionados em espécie, no âmbito da apuração sobre o gabinete parlamentar de Flávio Bolsonaro na Alerj. A defesa do parlamentar contesta as acusações e sustenta a licitude dos recursos movimentados. Levantamento documental do UOL com base em escrituras lavradas em cartórios de notas identificou 51 transações imobiliárias de membros da família com registro de uso de moeda corrente nacional. Os envolvidos informaram que todas as transações foram devidamente declaradas e obedeceram às exigências legais vigentes. Levantamento do jornal O Globo mapeou a contratação de 102 funcionários com vínculos familiares ao longo de quase três décadas de mandatos legislativos do clã, prática que fomentou debates jurídicos antes e após a Súmula Vinculante 13 do STF sobre nepotismo. Publicações do STF acompanham inquéritos abertos a requerimento da Procuradoria-Geral da República (PGR) para apurar suspeitas de interferência política na Polícia Federal. Investigações e relatórios policiais preliminares devem ser estritamente distinguidos de condenação penal definitiva.",
       "verified": true,
       "confidence": 0.96,
-      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (67 termos-chave validados: base, relatórios, coaf, identificação).",
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (56 termos-chave validados: base, relatórios, coaf, identificação).",
       "sources_checked": [
         {
           "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2019/01/19/relatorio-do-coaf-sobre-flavio-bolsonaro-mostra-pagamento-de-titulo-de-r-1-milhao-sem-indicar-o-favorecido.ghtml",
@@ -353,7 +353,7 @@
         },
         {
           "url": "https://noticias.stf.jus.br/postsnoticias/a-pedido-da-pgr-stf-reabre-investigacoes-sobre-suposta-interferencia-de-jair-bolsonaro-na-pf/",
-          "status": 200,
+          "status": 202,
           "accessible": true,
           "details": "Acessado com sucesso"
         }
@@ -365,11 +365,11 @@
       "claim_text": "O Supremo Tribunal Federal concluiu o julgamento e condenou centenas de executores e participantes das invasões e depredações das sedes dos Três Poderes ocorridas em 8 de janeiro de 2023 pelos crimes de tentativa de golpe de Estado, abolição violenta do Estado Democrático de Direito e associação criminosa. Investigação da Polícia Federal noticiada pela BBC News Brasil na Operação Contragolpe apontou minutas e planos denominados \"Punhal Verde e Amarelo\" para a tomada violenta de poder. As defesas dos investigados sustentam a inexistência de comando ou execução de tentativa golpista, ressaltando-se o status de investigados e réus em processo judicial. Cronologia oficial reportada pela Agência Brasil reconstituiu declarações públicas a chefes de missões diplomáticas questionando o sistema eletrônico de votação sem apresentação de perícias de fraude, vigílias e acampamentos em áreas militares que antecederam os atos de 8 de janeiro.",
       "verified": true,
       "confidence": 0.96,
-      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (57 termos-chave validados: supremo, tribunal, federal, concluiu).",
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (38 termos-chave validados: supremo, tribunal, federal, executores).",
       "sources_checked": [
         {
           "url": "https://noticias.stf.jus.br/postsnoticias/stf-concluiu-julgamento-de-acoes-contra-reus-que-planejaram-golpe-de-estado/",
-          "status": 200,
+          "status": 202,
           "accessible": true,
           "details": "Acessado com sucesso"
         },
@@ -388,5 +388,5 @@
       ]
     }
   ],
-  "timestamp": "2026-10-16T02:35:36.497Z"
+  "timestamp": "2026-10-16T02:39:52.319Z"
 }
