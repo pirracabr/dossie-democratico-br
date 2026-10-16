@@ -3,7 +3,7 @@ import { validateUrlSafe } from './ssrf-filter.mjs';
 
 const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 FactCheckBot/1.0';
 const MAX_BODY_BYTES = 2 * 1024 * 1024; // 2MB
-const REQUEST_TIMEOUT_MS = 6000;
+const REQUEST_TIMEOUT_MS = 10000;
 const MAX_REDIRECTS = 3;
 
 /**
@@ -189,13 +189,16 @@ export async function safeFetchSource(targetUrl, options = {}) {
 
     } catch (err) {
       clearTimeout(timeoutId);
-      const isAbort = err.name === 'AbortError';
+      const isAbort = err.name === 'AbortError' || err.cause?.name === 'AbortError' || err.code === 'ETIMEDOUT' || err.cause?.code === 'UND_ERR_CONNECT_TIMEOUT';
+      const detail = isAbort
+        ? `Timeout de ${REQUEST_TIMEOUT_MS}ms excedido ao consultar URL.`
+        : (err.cause?.message ? `${err.message} (${err.cause.message})` : err.message);
       return {
         accessible: false,
         status: 0,
         content: '',
         finalUrl: currentUrl,
-        error: isAbort ? `Timeout de ${REQUEST_TIMEOUT_MS}ms excedido ao consultar URL.` : err.message
+        error: detail
       };
     }
   }

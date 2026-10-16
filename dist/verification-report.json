@@ -38,12 +38,6 @@
           "status": 200,
           "accessible": true,
           "details": "Acessado com sucesso"
-        },
-        {
-          "url": "https://www.ihu.unisinos.br/categorias/656252-deus-patria-familia-brasil-que-se-ve-no-espelho-tende-ao-fascismo-artigo-de-vinicius-borges-gomes",
-          "status": 403,
-          "accessible": true,
-          "details": "Servidor retornou HTTP 403 (WAF/Anti-Bot ativo na fonte externa)."
         }
       ]
     },
@@ -53,7 +47,7 @@
       "claim_text": "Reportagem do UOL publicada em setembro de 2022 identificou que Flávio Bolsonaro e Carlos Bolsonaro solicitaram homenagens a pelo menos 16 policiais denunciados pelo Ministério Público do Rio de Janeiro por suposta participação em organizações criminosas. A apuração cruzou os nomes dos homenageados com informações dos tribunais. As denúncias e os processos citados devem ser distinguidos de condenações judiciais. Reportagem do Congresso em Foco publicada em novembro de 2017 relembra postagem de Carlos Bolsonaro nas redes sociais com a frase: \"Direitos humanos: esterco da vagabundagem\". A VEJA traz reportagem onde consta depoimento publicado em novembro de 2017, Jair Bolsonaro manifestou seu apoio a violência policial e armamento da população civil.",
       "verified": true,
       "confidence": 0.96,
-      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (25 termos-chave validados: publicada, bolsonaro, direitos, humanos).",
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (41 termos-chave validados: uol, publicada, 2022, identificou).",
       "sources_checked": [
         {
           "url": "https://www.ohchr.org/en/what-are-human-rights",
@@ -63,9 +57,9 @@
         },
         {
           "url": "https://noticias.uol.com.br/colunas/juliana-dal-piva/2022/09/23/cla-bolsonaro-condecorou-16-pms-denunciados-em-organizacoes-criminosas.htm",
-          "status": 403,
+          "status": 200,
           "accessible": true,
-          "details": "Servidor retornou HTTP 403 (WAF/Anti-Bot ativo na fonte externa)."
+          "details": "Acessado com sucesso"
         },
         {
           "url": "https://www.congressoemfoco.com.br/noticia/29040/direitos-humanos-e-%e2%80%9cesterco-da-vagabundagem%e2%80%9d-diz-bolsonaro",
@@ -109,13 +103,13 @@
       "claim_text": "Reportagem do UOL apurou que parlamentares do clã Bolsonaro condecoraram 16 policiais militares posteriormente denunciados pelo Ministério Público por suposta participação em milícias e organizações criminosas. As homenagens parlamentares concedidas devem ser distinguidas de aprovação de eventuais condutas ilícitas apuradas a posteriori. Estudo técnico divulgado pelo Andes-SN e elaborado por pesquisadores do Instituto Sou da Paz aponta que a política de facilitação e desregulamentação do acesso a armas e munições para civis e CACs gerou impacto no aumento de mortes violentas e desvio de armamentos. Matéria da Revista Fórum documentou manifestações públicas de Flávio Bolsonaro defendendo a atuação de policiais envolvidos em ações com óbitos e a concessão de excludente de ilicitude, tema de controvérsia entre defensores da segurança pública e organizações de direitos humanos.",
       "verified": true,
       "confidence": 0.96,
-      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (42 termos-chave validados: bolsonaro, público, participação, criminosas).",
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (48 termos-chave validados: uol, clã, bolsonaro, condecoraram).",
       "sources_checked": [
         {
           "url": "https://noticias.uol.com.br/colunas/juliana-dal-piva/2022/09/23/cla-bolsonaro-condecorou-16-pms-denunciados-em-organizacoes-criminosas.htm",
-          "status": 403,
+          "status": 200,
           "accessible": true,
-          "details": "Servidor retornou HTTP 403 (WAF/Anti-Bot ativo na fonte externa)."
+          "details": "Acessado com sucesso"
         },
         {
           "url": "https://www.andes.org.br/conteudos/noticia/sem-liberacao-de-armas-brasil-teria-evitado-6-mil-mortes-violentas-entre-2019-e-20211",
@@ -331,7 +325,7 @@
       "claim_text": "Reportagem do G1 com base em relatórios do COAF informou a identificação de transações bancárias atípicas, como o pagamento de título no valor de R$ 1 milhão e depósitos fracionados em espécie, no âmbito da apuração sobre o gabinete parlamentar de Flávio Bolsonaro na Alerj. A defesa do parlamentar contesta as acusações e sustenta a licitude dos recursos movimentados. Levantamento documental do UOL com base em escrituras lavradas em cartórios de notas identificou 51 transações imobiliárias de membros da família com registro de uso de moeda corrente nacional. Os envolvidos informaram que todas as transações foram devidamente declaradas e obedeceram às exigências legais vigentes. Levantamento do jornal O Globo mapeou a contratação de 102 funcionários com vínculos familiares ao longo de quase três décadas de mandatos legislativos do clã, prática que fomentou debates jurídicos antes e após a Súmula Vinculante 13 do STF sobre nepotismo. Publicações do STF acompanham inquéritos abertos a requerimento da Procuradoria-Geral da República (PGR) para apurar suspeitas de interferência política na Polícia Federal. Investigações e relatórios policiais preliminares devem ser estritamente distinguidos de condenação penal definitiva.",
       "verified": true,
       "confidence": 0.96,
-      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (56 termos-chave validados: base, relatórios, coaf, identificação).",
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (70 termos-chave validados: base, relatórios, coaf, identificação).",
       "sources_checked": [
         {
           "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2019/01/19/relatorio-do-coaf-sobre-flavio-bolsonaro-mostra-pagamento-de-titulo-de-r-1-milhao-sem-indicar-o-favorecido.ghtml",
@@ -341,9 +335,9 @@
         },
         {
           "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2022/08/30/como-foi-feito-o-levantamento-dos-imoveis-da-familia-bolsonaro.htm",
-          "status": 403,
+          "status": 200,
           "accessible": true,
-          "details": "Servidor retornou HTTP 403 (WAF/Anti-Bot ativo na fonte externa)."
+          "details": "Acessado com sucesso"
         },
         {
           "url": "https://oglobo.globo.com/politica/em-28-anos-cla-bolsonaro-nomeou-102-pessoas-com-lacos-familiares-23837445",
@@ -388,5 +382,5 @@
       ]
     }
   ],
-  "timestamp": "2026-10-16T02:39:52.319Z"
+  "timestamp": "2026-10-16T03:02:48.279Z"
 }
