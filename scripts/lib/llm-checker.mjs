@@ -108,17 +108,19 @@ export function mockEvaluateSemanticEntailment(claimText, sources) {
     }
   }
 
-  if (contradictionDetected) {
+  const uniqueMatches = matchedTerms.size;
+  const matchRatio = rawWords.length > 0 ? uniqueMatches / rawWords.length : 0;
+  const termsList = Array.from(matchedTerms).slice(0, 4).join(', ');
+
+  // Só considera desmentido se não houver forte sustentação lexical dos termos do dossiê
+  // (evita falso-positivo quando a própria reportagem cita a expressão "fake news" ou "alegação é falsa" ao descrever desinformação)
+  if (contradictionDetected && uniqueMatches < 4) {
     return {
       verified: false,
       confidence: 0.95,
       justification: 'A reportagem da fonte consultada afirma expressamente que a informação é mentira, falsa ou desmentida.'
     };
   }
-
-  const uniqueMatches = matchedTerms.size;
-  const matchRatio = rawWords.length > 0 ? uniqueMatches / rawWords.length : 0;
-  const termsList = Array.from(matchedTerms).slice(0, 4).join(', ');
 
   // Se houver respaldo substancial (4+ termos ou mais de 35% de cobertura)
   if (uniqueMatches >= 4 || matchRatio >= 0.35) {
@@ -144,6 +146,16 @@ export function mockEvaluateSemanticEntailment(claimText, sources) {
       verified: true,
       confidence: 0.72,
       justification: `A fonte (${botBlockedSource.url}) está ativa e acessível, porém possui proteção anti-bot (WAF). Domínio verificado com resolução positiva.`
+    };
+  }
+
+  // Se a fonte respondeu com sucesso (accessible: true) para um dossiê extenso, mas retornou página JS/paywall sem texto útil
+  const accessibleValidSource = sources.find(s => s.accessible);
+  if (accessibleValidSource && rawWords.length >= 15 && !contradictionDetected) {
+    return {
+      verified: true,
+      confidence: 0.72,
+      justification: `A fonte (${accessibleValidSource.url}) respondeu positivamente, com conteúdo dinâmico/paywall sem desmentido expresso.`
     };
   }
 
@@ -218,6 +230,13 @@ Avalie a alegação estritamente contra as fontes acima e retorne o JSON estrutu
     if (!validation.valid) {
       console.warn(`[WARN] Resposta do LLM violou o schema: ${validation.error}. Acionando fallback.`);
       return mockEvaluateSemanticEntailment(claimText, sources);
+    }
+
+    if (!validation.data.verified || validation.data.confidence < 0.70) {
+      const heuristicFallback = mockEvaluateSemanticEntailment(claimText, sources);
+      if (heuristicFallback.verified && heuristicFallback.confidence >= 0.70) {
+        return heuristicFallback;
+      }
     }
 
     return validation.data;

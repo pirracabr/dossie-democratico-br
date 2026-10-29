@@ -321,7 +321,7 @@ await test('CLI deve retornar Exit Code 0 em execução bem-sucedida (public/ind
     env: { ...process.env, TARGET_HTML: 'public/index.html', MOCK_LLM: 'true' },
     encoding: 'utf8'
   });
-  assert.equal(result.status, 0, 'Deveria retornar SUCCESS (0)');
+  assert.equal(result.status, 0, `Deveria retornar SUCCESS (0). Saída:\n${result.stdout}\n${result.stderr}`);
 });
 
 // ==========================================

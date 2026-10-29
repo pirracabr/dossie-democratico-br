@@ -1,0 +1,25 @@
+{
+    "theme": "fanzine-punk",
+    "colors": {
+        "background": "#0a0a0a",
+        "paper": "#f4f0ea",
+        "ink": "#0a0a0a",
+        "danger": "#dc2626",
+        "warning": "#facc15",
+        "border": "#000000"
+    },
+    "borders": {
+        "width": "3px",
+        "style": "solid",
+        "radius": "0px"
+    },
+    "shadows": {
+        "hard": "5px 5px 0px #000000",
+        "danger": "5px 5px 0px #dc2626"
+    },
+    "typography": {
+        "display": "'Anton', sans-serif",
+        "mono": "'Space Mono', monospace",
+        "body": "'Inter', sans-serif"
+    }
+}
