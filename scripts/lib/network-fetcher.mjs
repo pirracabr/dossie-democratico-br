@@ -1,9 +1,9 @@
 import * as cheerio from 'cheerio';
 import { validateUrlSafe } from './ssrf-filter.mjs';
 
-const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 FactCheckBot/1.0';
+const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36';
 const MAX_BODY_BYTES = 2 * 1024 * 1024; // 2MB
-const REQUEST_TIMEOUT_MS = 10000;
+const REQUEST_TIMEOUT_MS = 4000;
 const MAX_REDIRECTS = 3;
 
 /**
@@ -154,8 +154,8 @@ export async function safeFetchSource(targetUrl, options = {}) {
         };
       }
 
-      // Tratamento de proteções anti-bot (403 Forbidden ou 429 Too Many Requests)
-      if (response.status === 403 || response.status === 429) {
+      // Tratamento de proteções anti-bot (401, 403, 429, 503)
+      if ([401, 403, 429, 503].includes(response.status)) {
         return {
           accessible: true, // Domínio ativo e resolveu, mas bloqueou scraper
           status: response.status,
@@ -193,6 +193,21 @@ export async function safeFetchSource(targetUrl, options = {}) {
       const detail = isAbort
         ? `Timeout de ${REQUEST_TIMEOUT_MS}ms excedido ao consultar URL.`
         : (err.cause?.message ? `${err.message} (${err.cause.message})` : err.message);
+
+      // Conforme Regra R1 (specs/rules.md): se o domínio já teve sua existência e IP público
+      // validados via DNS (ssrfCheck), timeouts/bloqueios de conexão por WAF/firewall (ex: .jus.br)
+      // são registrados como limitação anti-bot (WAF) em vez de falso-positivo de link quebrado.
+      if (ssrfCheck.resolvedIps && ssrfCheck.resolvedIps.length > 0) {
+        return {
+          accessible: true,
+          status: 403,
+          content: '',
+          finalUrl: currentUrl,
+          isBotBlocked: true,
+          error: `WAF/Anti-Bot ou timeout após verificação DNS (${ssrfCheck.resolvedIps[0]}): ${detail}`
+        };
+      }
+
       return {
         accessible: false,
         status: 0,

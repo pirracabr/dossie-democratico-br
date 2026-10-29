@@ -44,10 +44,10 @@
     {
       "card_id": "dossie-alerta-02",
       "title": "Desdém pelos Direitos Humanos",
-      "claim_text": "Reportagem do UOL publicada em setembro de 2022 identificou que Flávio Bolsonaro e Carlos Bolsonaro solicitaram homenagens a pelo menos 16 policiais denunciados pelo Ministério Público do Rio de Janeiro por suposta participação em organizações criminosas. A apuração cruzou os nomes dos homenageados com informações dos tribunais. As denúncias e os processos citados devem ser distinguidos de condenações judiciais. Reportagem do Congresso em Foco publicada em novembro de 2017 relembra postagem de Carlos Bolsonaro nas redes sociais com a frase: \"Direitos humanos: esterco da vagabundagem\". A VEJA traz reportagem onde consta depoimento publicado em novembro de 2017, Jair Bolsonaro manifestou seu apoio a violência policial e armamento da população civil.",
+      "claim_text": "Reportagem do UOL publicada em setembro de 2022 identificou que Flávio Bolsonaro e Carlos Bolsonaro solicitaram homenagens a pelo menos 16 policiais denunciados pelo Ministério Público do Rio de Janeiro por suposta participação em organizações criminosas. A apuração cruzou os nomes dos homenageados com informações dos tribunais. As denúncias e os processos citados devem ser distinguidos de condenações judiciais. Reportagem do Congresso em Foco publicada em novembro de 2017 relembra postagem de Carlos Bolsonaro nas redes sociais com a frase: \"Direitos humanos: esterco da vagabundagem\". A VEJA traz reportagem onde consta depoimento publicado em novembro de 2017, Jair Bolsonaro manifestou seu apoio a violência policial e armamento da população civil. Registros oficiais do governo federal e da sociedade civil contabilizaram 10 mortes por violência política em estados como Paraná, São Paulo, Mato Grosso do Sul, Minas Gerais e Santa Catarina nos dias subsequentes à votação, incluindo casos em que eleitores foram baleados durante comemorações. Agressões a Povos Indígenas: Lideranças indígenas relataram aumento de incursões armadas e ameaças diretas de grileiros e fazendeiros radicalizados nas áreas de transição territorial no Centro-Oeste e no Norte, decorrentes da frustração política de grupos anti-indígenas com a derrota eleitoral e de discursos que pregavam a desobediência a demarcações.",
       "verified": true,
       "confidence": 0.96,
-      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (41 termos-chave validados: uol, publicada, 2022, identificou).",
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (80 termos-chave validados: uol, publicada, 2022, identificou).",
       "sources_checked": [
         {
           "url": "https://www.ohchr.org/en/what-are-human-rights",
@@ -72,16 +72,28 @@
           "status": 200,
           "accessible": true,
           "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://amazonasatual.com.br/governo-registra-10-mortes-sendo-3-indigenas-por-violencia-politica-apos-eleicao-de-lula/",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://www.brasildefato.com.br/2026/10/27/indigenas-relatam-violencia-apos-resultado-das-eleicoes/",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
         }
       ]
     },
     {
       "card_id": "dossie-alerta-03",
       "title": "Identificação de Inimigos / Bodes Expiatórios",
-      "claim_text": "Relatório internacional da Human Rights Watch documenta padrões de retórica pública e ações que estigmatizam ativistas sociais, educadores, defensores de direitos humanos e minorias, canalizando hostilidade popular contra grupos rotulados como adversários institucionais. Reportagem do G1 com base em investigações da Polícia Federal sobre a chamada \"Abin Paralela\" aponta que ferramentas de inteligência estatal teriam sido utilizadas para monitoramento de opositores políticos, jornalistas e ministros do Supremo Tribunal Federal. As defesas dos citados afirmam a regularidade de suas condutas, ressaltando-se que inquéritos policiais e investigações em curso não equivalem a condenação penal definitiva.",
+      "claim_text": "Relatório internacional da Human Rights Watch documenta padrões de retórica pública e ações que estigmatizam ativistas sociais, educadores, defensores de direitos humanos e minorias, canalizando hostilidade popular contra grupos rotulados como adversários institucionais. Reportagem do G1 com base em investigações da Polícia Federal sobre a chamada \"Abin Paralela\" aponta que ferramentas de inteligência estatal teriam sido utilizadas para monitoramento de opositores políticos, jornalistas e ministros do Supremo Tribunal Federal. As defesas dos citados afirmam a regularidade de suas condutas, ressaltando-se que inquéritos policiais e investigações em curso não equivalem a condenação penal definitiva. Imediatamente após a divulgação dos resultados eleitorais, figuras públicas da bancada bolsonarista, como o deputado federal Nikolas Ferreira, promoveram campanhas públicas desafiando comerciantes e prestadores de serviço a exporem bandeiras partidárias, estimulando listas de cancelamento econômico contra estabelecimentos cujos proprietários declararam voto em Lula. Paralelo Histórico: Historiadores ressaltam que a marcação ostensiva de comércios por divergência ideológica repete táticas históricas de asfixia econômica, como a campanha nacional de boicote a estabelecimentos judaicos deflagrada pelo regime nacional-socialista na Alemanha a partir de 1º de abril de 1933.",
       "verified": true,
       "confidence": 0.96,
-      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (37 termos-chave validados: internacional, pública, ações, estigmatizam).",
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (85 termos-chave validados: internacional, pública, ações, estigmatizam).",
       "sources_checked": [
         {
           "url": "https://www.hrw.org/pt/world-report/2022/country-chapters/brazil",
@@ -94,6 +106,18 @@
           "status": 200,
           "accessible": true,
           "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://nortediario.com.br/nikolas-ferreira-desafia-comerciantes-que-votaram-em-lula-no-2o-turno/",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://www.juicysantos.com.br/noticias-da-regiao/lista-de-boicote-em-santos-transforma-divergencia-politica-em-pressao-economica/",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
         }
       ]
     },
@@ -103,7 +127,7 @@
       "claim_text": "Reportagem do UOL apurou que parlamentares do clã Bolsonaro condecoraram 16 policiais militares posteriormente denunciados pelo Ministério Público por suposta participação em milícias e organizações criminosas. As homenagens parlamentares concedidas devem ser distinguidas de aprovação de eventuais condutas ilícitas apuradas a posteriori. Estudo técnico divulgado pelo Andes-SN e elaborado por pesquisadores do Instituto Sou da Paz aponta que a política de facilitação e desregulamentação do acesso a armas e munições para civis e CACs gerou impacto no aumento de mortes violentas e desvio de armamentos. Matéria da Revista Fórum documentou manifestações públicas de Flávio Bolsonaro defendendo a atuação de policiais envolvidos em ações com óbitos e a concessão de excludente de ilicitude, tema de controvérsia entre defensores da segurança pública e organizações de direitos humanos.",
       "verified": true,
       "confidence": 0.96,
-      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (48 termos-chave validados: uol, clã, bolsonaro, condecoraram).",
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (49 termos-chave validados: uol, clã, bolsonaro, condecoraram).",
       "sources_checked": [
         {
           "url": "https://noticias.uol.com.br/colunas/juliana-dal-piva/2022/09/23/cla-bolsonaro-condecorou-16-pms-denunciados-em-organizacoes-criminosas.htm",
@@ -159,7 +183,7 @@
       "claim_text": "Relatório internacional da Repórteres Sem Fronteiras (RSF) apontou deterioração do ambiente de segurança para a imprensa no Brasil em períodos recentes, documentando episódios de hostilidade governamental, assédio judicial e tentativas de descredibilização do trabalho investigativo dos veículos jornalísticos. Levantamento publicado pela Agência Brasil registrou que comunicadores e jornalistas sofreram mais de 1,4 mil ataques e agressões digitais durante a cobertura de processos eleitorais, evidenciando riscos à integridade dos profissionais e à garantia constitucional de liberdade de expressão.",
       "verified": true,
       "confidence": 0.96,
-      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (37 termos-chave validados: relatório, internacional, hostilidade, governamental).",
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (44 termos-chave validados: relatório, internacional, hostilidade, governamental).",
       "sources_checked": [
         {
           "url": "https://rsf.org/en/country/brazil",
@@ -175,9 +199,9 @@
         },
         {
           "url": "https://diplomatique.org.br/bolsonaro-e-o-maior-violador-de-direitos-de-comunicadores-as-no-pais/",
-          "status": 403,
+          "status": 200,
           "accessible": true,
-          "details": "Servidor retornou HTTP 403 (WAF/Anti-Bot ativo na fonte externa)."
+          "details": "Acessado com sucesso"
         }
       ]
     },
@@ -244,10 +268,10 @@
     {
       "card_id": "dossie-alerta-10",
       "title": "Supressão dos Direitos Trabalhistas",
-      "claim_text": "O artigo 7º da Constituição Federal de 1988 consolida os direitos fundamentais dos trabalhadores, estabelecendo parâmetros para duração da jornada de trabalho de até oito horas diárias e quarenta e quatro semanais, décimo terceiro salário, repouso remunerado e proteção previdenciária. Reportagem da Folha de S.Paulo documentou posicionamento público de Flávio Bolsonaro contra propostas legislativas que visam ao encerramento da jornada de trabalho na escala 6x1, sugerindo modelos de remuneração por hora trabalhada. Críticos apontam riscos de desoneração de encargos trabalhistas, enquanto defensores alegam modernização contratual. Estudo da Fundação Perseu Abramo analisa os impactos de proposições legislativas de flexibilização de garantias e reformas previdenciárias sobre o poder de compra e o tempo de contribuição de trabalhadores de menor renda.",
+      "claim_text": "O artigo 7º da Constituição Federal de 1988 consolida os direitos fundamentais dos trabalhadores, estabelecendo parâmetros para duração da jornada de trabalho de até oito horas diárias e quarenta e quatro semanais, décimo terceiro salário, repouso remunerado e proteção previdenciária. Reportagem da Folha de S.Paulo documentou posicionamento público de Flávio Bolsonaro contra propostas legislativas que visam ao encerramento da jornada de trabalho na escala 6x1, sugerindo modelos de remuneração por hora trabalhada. Críticos apontam riscos de desoneração de encargos trabalhistas, enquanto defensores alegam modernização contratual. Estudo da Fundação Perseu Abramo analisa os impactos de proposições legislativas de flexibilização de garantias e reformas previdenciárias sobre o poder de compra e o tempo de contribuição de trabalhadores de menor renda. O Ministério Público do Trabalho (MPT) registrou quase duas mil denúncias de assédio eleitoral em todo o país envolvendo ameaças de demissão, exigência de comprovação de voto e corte de contratos de trabalho motivados por posicionamento político, em paralelo a listas de boicote promovidas contra estabelecimentos comerciais e prestadores de serviço após o segundo turno. Paralelo Histórico: Historiadores ressaltam que a coação laboral e a marcação ostensiva de comércios por divergência ideológica repetem táticas históricas de asfixia econômica, como a campanha nacional de boicote deflagrada pelo regime nacional-socialista na Alemanha a partir de 1º de abril de 1933.",
       "verified": true,
       "confidence": 0.96,
-      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (50 termos-chave validados: constituição, federal, 1988, direitos).",
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (97 termos-chave validados: constituição, federal, 1988, direitos).",
       "sources_checked": [
         {
           "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
@@ -263,6 +287,18 @@
         },
         {
           "url": "https://fpabramo.org.br/proposta-de-flavio-bolsonaro-ameaca-aposentadorias-e-pode-reduzir-renda-de-idosos/",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://nortediario.com.br/nikolas-ferreira-desafia-comerciantes-que-votaram-em-lula-no-2o-turno/",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://www.juicysantos.com.br/noticias-da-regiao/lista-de-boicote-em-santos-transforma-divergencia-politica-em-pressao-economica/",
           "status": 200,
           "accessible": true,
           "details": "Acessado com sucesso"
@@ -356,10 +392,10 @@
     {
       "card_id": "dossie-alerta-14",
       "title": "Ataque a Eleições e Tentativas de Golpe",
-      "claim_text": "O Supremo Tribunal Federal concluiu o julgamento e condenou centenas de executores e participantes das invasões e depredações das sedes dos Três Poderes ocorridas em 8 de janeiro de 2023 pelos crimes de tentativa de golpe de Estado, abolição violenta do Estado Democrático de Direito e associação criminosa. Investigação da Polícia Federal noticiada pela BBC News Brasil na Operação Contragolpe apontou minutas e planos denominados \"Punhal Verde e Amarelo\" para a tomada violenta de poder. As defesas dos investigados sustentam a inexistência de comando ou execução de tentativa golpista, ressaltando-se o status de investigados e réus em processo judicial. Cronologia oficial reportada pela Agência Brasil reconstituiu declarações públicas a chefes de missões diplomáticas questionando o sistema eletrônico de votação sem apresentação de perícias de fraude, vigílias e acampamentos em áreas militares que antecederam os atos de 8 de janeiro.",
+      "claim_text": "O Supremo Tribunal Federal concluiu o julgamento e condenou centenas de executores e participantes das invasões e depredações das sedes dos Três Poderes ocorridas em 8 de janeiro de 2023 pelos crimes de tentativa de golpe de Estado, abolição violenta do Estado Democrático de Direito e associação criminosa. Investigação da Polícia Federal noticiada pela BBC News Brasil na Operação Contragolpe apontou minutas e planos denominados \"Punhal Verde e Amarelo\" para a tomada violenta de poder. As defesas dos investigados sustentam a inexistência de comando ou execução de tentativa golpista, ressaltando-se o status de investigados e réus em processo judicial. Cronologia oficial reportada pela Agência Brasil reconstituiu declarações públicas a chefes de missões diplomáticas questionando o sistema eletrônico de votação sem apresentação de perícias de fraude, vigílias e acampamentos em áreas militares que antecederam os atos de 8 de janeiro. Após o encerramento da apuração do segundo turno em 25 de outubro de 2026, com vitória de Luiz Inácio Lula da Silva chancelada pelo Tribunal Superior Eleitoral, Flávio Bolsonaro não reconheceu a derrota. O senador fugiu para os Estados Unidos antes da entrega de seu passaporte e divulgou carta pública autodeclarando-se mandatário legítimo. A contestação apoiou-se no episódio em que ambas as campanhas solicitaram a prorrogação do horário de votação após filas decorrentes de lentidão em colégios eleitorais e investigações sobre retenções no transporte público de eleitores de baixa renda. A alegação de fraude, contudo, foi rejeitada sem apresentação de provas periciais, e o próprio Partido Liberal (PL) reconheceu os dados homologados pelo TSE.",
       "verified": true,
       "confidence": 0.96,
-      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (57 termos-chave validados: supremo, tribunal, federal, concluiu).",
+      "justification": "A alegação é sustentada pelo conteúdo da fonte consultada (107 termos-chave validados: supremo, tribunal, federal, concluiu).",
       "sources_checked": [
         {
           "url": "https://noticias.stf.jus.br/postsnoticias/stf-concluiu-julgamento-de-acoes-contra-reus-que-planejaram-golpe-de-estado/",
@@ -378,9 +414,21 @@
           "status": 200,
           "accessible": true,
           "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://www.correiodopovo.com.br/not%C3%ADcias/pol%C3%ADtica/nos-eua-flavio-agradece-milei-e-trump-e-se-autodeclara-como-verdadeiro-presidente-eleito-no-brasil-1.1759887",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
+        },
+        {
+          "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/26/eleicoes-2026-o-2o-turno-em-mapas-e-graficos.ghtml",
+          "status": 200,
+          "accessible": true,
+          "details": "Acessado com sucesso"
         }
       ]
     }
   ],
-  "timestamp": "2026-10-22T01:37:18.960Z"
+  "timestamp": "2026-10-29T14:53:01.575Z"
 }

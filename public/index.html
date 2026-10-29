@@ -20,6 +20,8 @@
       --red2: #a90e25;
       --amber: #ffca63;
       --link: #60a5fa;
+      --danger: #ef4444;
+      --accent: #ffca63;
       --max: 1080px
     }
 
@@ -156,6 +158,57 @@
 
     .hero-alert strong {
       color: #ff9aa5
+    }
+
+    .alert-box {
+      padding: 16px 18px;
+      border-left: 4px solid #ef4444;
+      border-radius: 8px;
+      max-width: 820px;
+    }
+
+    .dossie-update {
+      margin: 18px 0;
+      padding: 18px 20px;
+      background: rgba(255, 255, 255, 0.025);
+      border: 1px solid var(--line);
+      border-left: 5px solid var(--danger);
+      border-radius: 10px;
+      scroll-margin-top: 90px;
+    }
+
+    .dossie-update.accent-border {
+      border-left-color: var(--accent);
+    }
+
+    .dossie-update h4 {
+      margin: 8px 0 10px;
+      font-size: 1.12rem;
+      color: #fff;
+      letter-spacing: -.01em;
+    }
+
+    .tag {
+      display: inline-block;
+      font-size: .72rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      padding: 3px 9px;
+      border-radius: 999px;
+      margin-bottom: 4px;
+    }
+
+    .tag.danger {
+      color: #fca5a5;
+      background: rgba(239, 68, 68, 0.16);
+      border: 1px solid rgba(239, 68, 68, 0.35);
+    }
+
+    .tag.fact {
+      color: var(--amber);
+      background: rgba(255, 202, 99, 0.12);
+      border: 1px solid rgba(255, 202, 99, 0.3);
     }
 
     .stats {
@@ -780,12 +833,25 @@
   <header class="topbar">
     <div class="wrap">
       <div class="brand">Dossiê Cívico · Democracia e Soberania</div>
-      <div>Guia de Análise Factual · Brasil 2026</div>
+      <div>Guia de Análise Factual · Atualizado em 29/10/2026</div>
     </div>
   </header>
 
   <header class="hero">
     <div class="wrap">
+      <!-- ALERTA DE COBERTURA CONTÍNUA -->
+      <div class="alert-box"
+        style="border-left-color: #ef4444; background: rgba(239, 68, 68, 0.15); margin-bottom: 2rem;">
+        <strong style="color: #fca5a5; font-size: 1.1rem; display: block; margin-bottom: 0.3rem;">
+          🔴 MONITORAMENTO ATIVO: PÓS-ELEIÇÕES 2026
+        </strong>
+        <p style="margin: 0; color: #fee2e2; font-size: 0.95rem; line-height: 1.5;">
+          Esta página está em constante atualização documental conforme novos episódios de violência política,
+          contestação golpista do resultado eleitoral e perseguições econômicas são registrados pelas autoridades e pela
+          imprensa.
+        </p>
+      </div>
+
       <div class="kicker"><span class="pulse"></span> Alerta Institucional</div>
       <h1>14 Sinais de Alerta do <em>Fascismo</em></h1>
       <p class="lead">Como reconhecer padrões autoritários e investigar sua presença real no contexto brasileiro
@@ -852,8 +918,8 @@
             </div>
             <h3>Desdém pelos Direitos Humanos</h3>
             <p class="summary">Discurso recorrente de que direitos humanos <em>"só servem para defender
-                bandidos"</em>, exaltação aberta da letalidade policial em periferias e homenagens
-              oficiais públicas a torturadores da ditadura militar.</p>
+                bandidos"</em>, exaltação aberta da letalidade policial, homenagens a torturadores e, no pós-eleições de
+              2026, episódios de violência política letal e ataques armados a territórios indígenas.</p>
           </div>
           <a class="card-cta" href="#dossie-alerta-02">Ver fatos documentados e fontes no Brasil &darr;</a>
         </article>
@@ -866,9 +932,9 @@
               <span class="severity">SINAL DE ALERTA</span>
             </div>
             <h3>Identificação de Inimigos / Bodes Expiatórios</h3>
-            <p class="summary">Criação contínua de alvos existenciais a serem desumanizados e destruídos
-              para canalizar a insatisfação social: ativistas, cientistas, minorias, opositores políticos e
-              magistrados do STF.</p>
+            <p class="summary">Criação contínua de alvos a serem hostilizados: ativistas, cientistas, minorias,
+              opositores políticos, magistrados do STF e, após o 2º turno de 2026, listas de boicote comercial contra
+              estabelecimentos cujos proprietários declararam voto em Lula.</p>
           </div>
           <a class="card-cta" href="#dossie-alerta-03">Ver fatos documentados e fontes no Brasil &darr;</a>
         </article>
@@ -970,9 +1036,9 @@
               <span class="severity">SINAL DE ALERTA</span>
             </div>
             <h3>Supressão dos Direitos dos Trabalhadores</h3>
-            <p class="summary">Críticas anteriores ao fim da escala 6x1, defesa de pagamento por hora e de maior
-              negociação direta entre patrão e empregado, com possíveis impactos sobre a estabilidade da jornada e a
-              remuneração dos trabalhadores
+            <p class="summary">Críticas ao fim da escala 6x1, defesa de pagamento por hora e negociação direta entre
+              patrão e empregado, somadas a quase duas mil denúncias no MPT de assédio eleitoral, ameaças de demissão e
+              boicotes econômicos no pós-pleito de 2026.
             </p>
           </div>
           <a class="card-cta" href="#dossie-alerta-10">Ver fatos documentados e fontes no Brasil &darr;</a>
@@ -1021,7 +1087,7 @@
           <a class="card-cta" href="#dossie-alerta-13">Ver fatos documentados e fontes no Brasil &darr;</a>
         </article>
 
-        <!-- Card 14 -->
+        <!-- ATUALIZAÇÃO DO CARTÃO 14 -->
         <article class="alert-card" id="alerta-14">
           <div>
             <div class="card-top">
@@ -1029,11 +1095,13 @@
               <span class="severity">SINAL DE ALERTA</span>
             </div>
             <h3>Ataque a Eleições e Tentativa de Golpe</h3>
-            <p class="summary">Difusão de desinformação contra as urnas eletrônicas para diplomatas,
-              planejamento armado do "Punhal Verde e Amarelo" e invasão sediciosa aos Três Poderes em 8 de
-              janeiro.</p>
+            <p class="summary">
+              Após a derrota confirmada no segundo turno de 2026, Flávio Bolsonaro deixou o país rumo aos Estados Unidos
+              e divulgou pronunciamento autodeclarando-se o "verdadeiro presidente eleito", alegando nulidades sem
+              apresentar provas, enquanto o próprio partido (PL) reconheceu o resultado oficial.
+            </p>
           </div>
-          <a class="card-cta" href="#dossie-alerta-14">Ver fatos documentados e fontes no Brasil &darr;</a>
+          <a class="card-cta" href="#golpe-pos-eleicoes">Ver desdobramentos pós-eleição &darr;</a>
         </article>
       </div>
     </section>
@@ -1123,6 +1191,24 @@
             apoio
             a violência policial e armamento da população civil.
           </p>
+          <!-- SEÇÃO DE VIOLÊNCIA POLÍTICA PÓS-RESULTADO -->
+          <div class="dossie-update" id="violencia-pos-eleicoes">
+            <span class="tag danger">Relatório Oficial de Segurança</span>
+            <h4>Crimes Motivados por Intolerância e Ataques a Territórios Indígenas</h4>
+            <p class="claim-text">
+              Registros oficiais do governo federal e da sociedade civil contabilizaram 10 mortes por violência política
+              em estados como Paraná, São Paulo, Mato Grosso do Sul, Minas Gerais e Santa Catarina nos dias subsequentes
+              à votação, incluindo casos em que eleitores foram baleados durante comemorações.
+            </p>
+            <p class="claim-text" style="margin-bottom: 0;">
+              <strong>Agressões a Povos Indígenas:</strong> Lideranças indígenas relataram aumento de incursões armadas
+              e
+              ameaças diretas de grileiros e fazendeiros radicalizados nas áreas de transição territorial no
+              Centro-Oeste
+              e no Norte, decorrentes da frustração política de grupos anti-indígenas com a derrota eleitoral e de
+              discursos que pregavam a desobediência a demarcações.
+            </p>
+          </div>
           <div class="sources-box">
             <strong>Fontes e Documentos Comprobatórios:</strong>
             <div class="sources-list-links">
@@ -1144,6 +1230,16 @@
                 href="https://veja.abril.com.br/politica/bolsonaro-policial-que-nao-mata-nao-e-policial/"
                 target="_blank" rel="noopener noreferrer">
                 🔗 VEJA | “Policial que não mata não é policial”
+              </a>
+              <a class="source-link-item source-link"
+                href="https://amazonasatual.com.br/governo-registra-10-mortes-sendo-3-indigenas-por-violencia-politica-apos-eleicao-de-lula/"
+                target="_blank" rel="noopener noreferrer">
+                🔗 Amazonas Atual | Levantamento de mortes e violência política pós-eleição
+              </a>
+              <a class="source-link-item source-link"
+                href="https://www.brasildefato.com.br/2026/10/27/indigenas-relatam-violencia-apos-resultado-das-eleicoes/"
+                target="_blank" rel="noopener noreferrer">
+                🔗 Brasil de Fato | Relatos de violência e ameaças contra povos indígenas
               </a>
             </div>
           </div>
@@ -1172,6 +1268,24 @@
             As defesas dos citados afirmam a regularidade de suas condutas, ressaltando-se que inquéritos policiais e
             investigações em curso não equivalem a condenação penal definitiva.
           </p>
+          <!-- CARTÃO DE ALERTA: BOICOTE COMERCIAL E ASSÉDIO -->
+          <div class="dossie-update accent-border" id="boicote-comercial">
+            <span class="tag fact">Perseguição Econômica e Assédio</span>
+            <h4>Listas de Boicote e Pressão sobre Estabelecimentos Comerciais</h4>
+            <p class="claim-text">
+              Imediatamente após a divulgação dos resultados eleitorais, figuras públicas da bancada bolsonarista, como
+              o deputado federal Nikolas Ferreira, promoveram campanhas públicas desafiando comerciantes e prestadores
+              de
+              serviço a exporem bandeiras partidárias, estimulando listas de cancelamento econômico contra
+              estabelecimentos cujos proprietários declararam voto em Lula.
+            </p>
+            <p class="claim-text" style="margin-bottom: 0;">
+              <strong>Paralelo Histórico:</strong> Historiadores ressaltam que a marcação ostensiva de comércios por
+              divergência ideológica repete táticas históricas de asfixia econômica, como a campanha nacional de boicote
+              a estabelecimentos judaicos deflagrada pelo regime nacional-socialista na Alemanha a partir de 1º de abril
+              de 1933.
+            </p>
+          </div>
           <div class="sources-box">
             <strong>Fontes e Documentos Comprobatórios:</strong>
             <div class="sources-list-links">
@@ -1184,6 +1298,16 @@
                 href="https://g1.globo.com/politica/noticia/2025/06/18/como-abin-paralela-usou-o-programa-para-monitorar-alvos-segundo-a-pf.ghtml"
                 target="_blank" rel="noopener noreferrer">
                 🔗 G1 Notícias | Monitoramento ilegal de juízes e opositores
+              </a>
+              <a class="source-link-item source-link"
+                href="https://nortediario.com.br/nikolas-ferreira-desafia-comerciantes-que-votaram-em-lula-no-2o-turno/"
+                target="_blank" rel="noopener noreferrer">
+                🔗 Norte Diário | Parlamentares promovem listas contra comerciantes após o 2º turno
+              </a>
+              <a class="source-link-item source-link"
+                href="https://www.juicysantos.com.br/noticias-da-regiao/lista-de-boicote-em-santos-transforma-divergencia-politica-em-pressao-economica/"
+                target="_blank" rel="noopener noreferrer">
+                🔗 Juicy Santos | Listas de boicote e pressão econômica pós-eleitoral
               </a>
             </div>
           </div>
@@ -1476,6 +1600,24 @@
             garantias e
             reformas previdenciárias sobre o poder de compra e o tempo de contribuição de trabalhadores de menor renda.
           </p>
+          <!-- CARTÃO DE ALERTA: ASSÉDIO ELEITORAL E BOICOTE -->
+          <div class="dossie-update accent-border" id="assedio-eleitoral-trabalho">
+            <span class="tag fact">Perseguição Econômica e Assédio</span>
+            <h4>Assédio Eleitoral contra Trabalhadores e Boicotes Pós-Pleito</h4>
+            <p class="claim-text">
+              O Ministério Público do Trabalho (MPT) registrou quase duas mil denúncias de assédio eleitoral em todo o
+              país envolvendo ameaças de demissão, exigência de comprovação de voto e corte de contratos de trabalho
+              motivados por posicionamento político, em paralelo a listas de boicote promovidas contra estabelecimentos
+              comerciais e prestadores de serviço após o segundo turno.
+            </p>
+            <p class="claim-text" style="margin-bottom: 0;">
+              <strong>Paralelo Histórico:</strong> Historiadores ressaltam que a coação laboral e a marcação ostensiva
+              de
+              comércios por divergência ideológica repetem táticas históricas de asfixia econômica, como a campanha
+              nacional de boicote deflagrada pelo regime nacional-socialista na Alemanha a partir de 1º de abril de
+              1933.
+            </p>
+          </div>
           <div class="sources-box">
             <strong>Fontes e Documentos Comprobatórios:</strong>
             <div class="sources-list-links">
@@ -1493,6 +1635,16 @@
                 href="https://fpabramo.org.br/proposta-de-flavio-bolsonaro-ameaca-aposentadorias-e-pode-reduzir-renda-de-idosos/"
                 target="_blank" rel="noopener noreferrer">
                 🔗 Fundação Perseu Abramo | Proposta de Flávio Bolsonaro ameaça aposentadorias
+              </a>
+              <a class="source-link-item source-link"
+                href="https://nortediario.com.br/nikolas-ferreira-desafia-comerciantes-que-votaram-em-lula-no-2o-turno/"
+                target="_blank" rel="noopener noreferrer">
+                🔗 Norte Diário | Parlamentares promovem listas contra comerciantes após o 2º turno
+              </a>
+              <a class="source-link-item source-link"
+                href="https://www.juicysantos.com.br/noticias-da-regiao/lista-de-boicote-em-santos-transforma-divergencia-politica-em-pressao-economica/"
+                target="_blank" rel="noopener noreferrer">
+                🔗 Juicy Santos | Listas de boicote e pressão econômica pós-eleitoral
               </a>
             </div>
           </div>
@@ -1678,6 +1830,24 @@
             em áreas
             militares que antecederam os atos de 8 de janeiro.
           </p>
+          <!-- BLOCO DOCUMENTAL PARA A SEÇÃO DE LEGITIMIDADE ELEITORAL -->
+          <div class="dossie-update" id="golpe-pos-eleicoes">
+            <span class="tag danger">Desdobramentos Eleitorais 2026</span>
+            <h4>Contestação das Urnas, Saída para os EUA e Autodeclaração</h4>
+            <p class="claim-text">
+              Após o encerramento da apuração do segundo turno em 25 de outubro de 2026, com vitória de Luiz Inácio Lula
+              da Silva chancelada pelo Tribunal Superior Eleitoral, Flávio Bolsonaro não reconheceu a derrota. O senador
+              fugiu para os Estados Unidos antes da entrega de seu passaporte e divulgou carta pública autodeclarando-se
+              mandatário legítimo.
+            </p>
+            <p class="claim-text" style="margin-bottom: 0;">
+              A contestação apoiou-se no episódio em que ambas as campanhas solicitaram a prorrogação do horário de
+              votação após filas decorrentes de lentidão em colégios eleitorais e investigações sobre retenções no
+              transporte público de eleitores de baixa renda. A alegação de fraude, contudo, foi rejeitada sem
+              apresentação de provas periciais, e o próprio Partido Liberal (PL) reconheceu os dados homologados pelo
+              TSE.
+            </p>
+          </div>
           <div class="sources-box">
             <strong>Fontes e Documentos Comprobatórios:</strong>
             <div class="sources-list-links">
@@ -1694,6 +1864,16 @@
                 href="https://agenciabrasil.ebc.com.br/politica/noticia/2024-01/relembre-o-passo-passo-da-tentativa-de-golpe-no-81"
                 target="_blank" rel="noopener noreferrer">
                 🔗 Agência Brasil | Cronologia oficial e reconstituição dos atos golpistas
+              </a>
+              <a class="source-link-item source-link"
+                href="https://www.correiodopovo.com.br/not%C3%ADcias/pol%C3%ADtica/nos-eua-flavio-agradece-milei-e-trump-e-se-autodeclara-como-verdadeiro-presidente-eleito-no-brasil-1.1759887"
+                target="_blank" rel="noopener noreferrer">
+                🔗 Correio do Povo / Estadão Conteúdo | Flávio autodeclara-se presidente a partir dos EUA
+              </a>
+              <a class="source-link-item source-link"
+                href="https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/26/eleicoes-2026-o-2o-turno-em-mapas-e-graficos.ghtml"
+                target="_blank" rel="noopener noreferrer">
+                🔗 G1 | Resultados oficiais do segundo turno de 2026
               </a>
             </div>
           </div>
