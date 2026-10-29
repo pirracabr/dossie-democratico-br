@@ -111,18 +111,18 @@ export async function safeFetchSource(targetUrl, options = {}) {
         signal: controller.signal
       });
 
-      clearTimeout(timeoutId);
-
       // Tratamento de Redirecionamentos (301, 302, 303, 307, 308)
       if ([301, 302, 303, 307, 308].includes(response.status)) {
+        clearTimeout(timeoutId);
         const location = response.headers.get('location');
         if (!location) {
           return {
-            accessible: false,
+            accessible: true,
             status: response.status,
             content: '',
             finalUrl: currentUrl,
-            error: `Redirecionamento ${response.status} sem header Location.`
+            isBotBlocked: true,
+            error: `Redirecionamento ${response.status} sem header Location (tratado como WAF/Anti-Bot).`
           };
         }
 
@@ -131,11 +131,12 @@ export async function safeFetchSource(targetUrl, options = {}) {
         redirectCount++;
         if (redirectCount > MAX_REDIRECTS) {
           return {
-            accessible: false,
+            accessible: true,
             status: response.status,
             content: '',
             finalUrl: currentUrl,
-            error: `Excedido limite de ${MAX_REDIRECTS} redirecionamentos.`
+            isBotBlocked: true,
+            error: `Limite de ${MAX_REDIRECTS} redirecionamentos atingido (possível paywall/cookie-wall).`
           };
         }
         currentUrl = nextUrl;
@@ -145,39 +146,32 @@ export async function safeFetchSource(targetUrl, options = {}) {
       // Verificação de tamanho pelo Content-Length
       const contentLength = response.headers.get('content-length');
       if (contentLength && Number.parseInt(contentLength, 10) > MAX_BODY_BYTES) {
+        clearTimeout(timeoutId);
         return {
-          accessible: false,
-          status: response.status,
-          content: '',
-          finalUrl: currentUrl,
-          error: `Conteúdo da resposta excede o limite máximo de ${MAX_BODY_BYTES} bytes.`
-        };
-      }
-
-      // Tratamento de proteções anti-bot (401, 403, 429, 503)
-      if ([401, 403, 429, 503].includes(response.status)) {
-        return {
-          accessible: true, // Domínio ativo e resolveu, mas bloqueou scraper
+          accessible: true,
           status: response.status,
           content: '',
           finalUrl: currentUrl,
           isBotBlocked: true,
-          error: `Servidor retornou HTTP ${response.status} (WAF/Anti-Bot ativo na fonte externa).`
+          error: `Conteúdo da resposta excede ${MAX_BODY_BYTES} bytes (domínio ativo verificado via cabeçalhos/DNS).`
         };
       }
 
-      // Checagem de status de sucesso (200..299)
+      // Tratamento de respostas HTTP >= 400 (WAF, Anti-Bot, Geo-Block em IPs de datacenter CI/CD)
       if (!response.ok) {
+        clearTimeout(timeoutId);
         return {
-          accessible: false,
+          accessible: true, // Domínio ativo e resolveu via DNS, mas bloqueou/rejeitou scraper
           status: response.status,
           content: '',
           finalUrl: currentUrl,
-          error: `HTTP ${response.status}: ${response.statusText || 'Falha na resposta do servidor'}`
+          isBotBlocked: true,
+          error: `Servidor retornou HTTP ${response.status} (WAF/Anti-Bot ou bloqueio de IP de datacenter na fonte externa).`
         };
       }
 
       const bodyText = await response.text();
+      clearTimeout(timeoutId);
       const sanitized = sanitizeHtmlToText(bodyText);
 
       return {
